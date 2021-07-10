@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-position: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+canvas {
+  display: block;
+  border: 40px violet double;
+  border-radius: 50px;
+  margin-top: -15%;
+}
+
+.heading {
+  margin: 0px;
+  position: relative;
+  font-size: larger;
+  background-size: contain;
+  background: rgb(139,251,63);
+  background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+}
+
+.description {
+  font-size: medium;
+}
+
+.song {
+  margin: 0px;
+  width: fit-content;
+  border: 10px violet double;
+  border-radius: 50px;
+  background: rgb(139,251,63);
+  background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+}
